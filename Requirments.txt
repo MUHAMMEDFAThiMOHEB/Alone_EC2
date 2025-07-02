@@ -2,7 +2,7 @@ Project 1
 
 (1)- Create a VPC in us-east-1 with the local name : main. The CIDR block is 10.0.0.0/16.
 
-(2)- Create a security group with the local name : allow_tls. the security group allow HTTPs (port 443) inbound from the VPC CIDR block
+(2)- Create a security group with the local name : allow_tls. the security group allow HTTPS (port 443) inbound from the VPC CIDR block
      and all traffic outbound. The security gorup must be in the above VPC
 
 (3)- Create a subnet with the local name Public_Subnet in the above VPC in the availability zone us-east-1, the subnet CIDR block is 10.0.1.0/24.
